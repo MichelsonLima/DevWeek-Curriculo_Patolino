@@ -4,22 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Serif:opsz@8..144&display=swap"
-      rel="stylesheet"
-    />
     <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="icon" href="img/duck.png" >
     <title>Patônico CV</title>
   </head>
   <body>
     <main class="resume-contents">
       <section class="left-section">
-        <section class="left-section-contents">
+        <div class="left-section-content">
           <div class="profile">
             <img
-              src="img/quac.jpg"
+              src="img/duck-cut.jpg"
               alt="Um pato com uma almofada"
               class="profile-image"
             />
@@ -30,24 +25,26 @@
           <div class="contact-info">
             <p class="left-title">Contato</p>
             <ul>
-              <li><i class="fa fa-phone"></i>+55 81 99519-5487</li>
+              <li><i class="fa fa-phone"></i><img class="icon-contact" src="img/phone-call.png" alt=""> +55 99 4002-8922</li>
 
-              <li><i class="fa fa-envelope"></i>patolino123@gmail.com</li>
+              <li><i class="fa fa-envelope"></i><img src="img/email (1).png" alt="" class="icon-contact"> patolino123@gmail.com</li>
 
-              <li><i class="fa fa-globe"></i>www.patodev.com.br</li>
+              <li><i class="fa fa-globe"></i><img src="img/website.png" alt="" class="icon-contact"> www.patodev.com.br</li>
 
-              <li><i class="fa fa-github"></i>PatoLindo</li>
+              <li><i class="fa fa-github"></i><img src="img/github.png" alt="" class="icon-contact"> PatoLindo</li>
             </ul>
           </div>
 
           <div class="skills">
-            <p class="left-title">Skills</p>
+            <p class="left-title" >Skills</p>
             <ul>
-              <li><p>HTML, CSS, JavaScript</p></li>
+              <li><p>HTML & CSS, JavaScript</p></li>
+              <li><p>JavaScript</p></li>
               <li><p>MMC, MDC, Bhaskara</p></li>
+              <li><p>Git & github</p></li>
             </ul>
           </div>
-        </section>
+        </div>
       </section>
 
       <section class="right-section">
@@ -55,60 +52,95 @@
           <section class="about gap">
             <div class="right-title">Sobre Mim</div>
             <p class="about-me-contents">
-              Olá *quac*! <br /><br />
-              Estudo Ciência da Computação e estou *quac* me especializando no
-              Front-end.
+              Olá *quac*! <br> <br>
+              Estudo Ciência da Computação e estou *quac* me especializando na área de
+              Front-end. 
+              <br>
+              Experiência em criação e customização de sites. <br>
+              Estudando ReacJS e Vue.js.
             </p>
           </section>
+        
+
+          <section class="experience gap">
+            <div class="right-title">Experiência</div>
+            <div class="experience-contents">
+              <div class="exp-left">
+                <p class="exp-company-name">DreamWorks Animation</p>
+                <p class="exp-time-name">2021-Present</p>
+              </div>
+              <div class="exp-right">
+                <p class="exp-position">Front-End Developer</p>
+                <p class="exp-desc">Criação, customização e implementação do javascript em sites para eventos/lançamentos de filmes</p>
+              </div>
+
+
+              <div class="exp-left">
+                <p class="exp-company-name">DuckDuck Go</p>
+                <p class="exp-time-name">2019-2021</p>
+              </div>
+              <div class="exp-right">
+                <p class="exp-position">Jr Dev Front-End</p>
+                <p class="exp-desc">Fazia manutenção e atualizações quando solicitado no layout do site</p>
+              </div>
+            </div>
+        
+          </section>
+
+          <section class="education gap">
+            <div class="right-title">Formação</div>
+            <div class="education-contents">
+              <div class="education-left">
+                <p class="education-school-name">MIT</p>
+                <p class="education-time-name">2019 - Present</p>
+              </div>
+
+              <div class="education-right">
+                <p class="education-subject">Ciência da Computação</p>
+                <p class="education-desc">Curso de Graduação</p>
+              </div>
+              <div class="education-left">
+                <p class="education-school-name">DOMESTIKA</p>
+                <p class="education-time-name">2021</p>
+              </div>
+
+              <div class="education-right">
+                <p class="education-subject">UX Design</p>
+                <p class="education-desc">Curso online</p>
+              </div>
+            </div>
+          </section>
+
+          <section class="awards gap">
+            <div class="right-title">Certificados</div>
+            <div class="awards-contents">
+              <div class="awards-left">
+                <p class="awards-company-name">Rocketseat</p>
+                <p class="awards-time-period">Agosto de 2022</p>
+              </div>
+
+              <div class="awards-right">
+                <p class="awards-name">Trilha Conectar</p>
+                <p class="awards-desc">
+                  Ago 22 - Sem Data de Expiração
+                </p>
+              </div>
+
+              <div class="awards-left">
+                <p class="awards-company-name">DOMESTIKA</p>
+                <p class="awards-time-period">Dezembro de 2020</p>
+              </div>
+
+              <div class="awards-right">
+                <p class="awards-name">UX Design</p>
+                <p class="awards-desc">
+                  Dez 20 - Sem Data de Expiração
+                </p>
+              </div>
+            </div>
+          </section>
         </div>
-
-        <section class="experience gap">
-          <div class="right-title">Experiência</div>
-          <div class="experience-contents">
-            <div class="exp-left">
-              <p class="exp-company-name">Empresa 01</p>
-              <p class="exp-time-name">2021-Present</p>
-            </div>
-            <div class="exp-right">
-              <p class="exp-position">Software Engineer</p>
-              <p class="exp-desc">Escreva as atividades</p>
-            </div>
-
-
-            <div class="exp-left">
-              <p class="exp-company-name">Empresa 02</p>
-              <p class="exp-time-name">2021-2022</p>
-            </div>
-            <div class="exp-right">
-              <p class="exp-position">Dev Engineer</p>
-              <p class="exp-desc">Escreva as atividades</p>
-            </div>
-          </div>
-        </section>
-
-        <section class="education gap">
-          <div class="right-title">Formação Acadêmica</div>
-          <div class="education-contents">
-            <div class="education-left">
-              <p class="education-school-name">MIT</p>
-              <p class="education-time-name">2019 - 2025</p>
-            </div>
-
-            <div class="education-right">
-              <p class="education-subject">Software Engineer</p>
-              <p class="education-desc">PHD em Software</p>
-            </div>
-            <div class="education-left">
-              <p class="education-school-name">OXFORD</p>
-              <p class="education-time-name">2019 - 2020</p>
-            </div>
-
-            <div class="education-right">
-              <p class="education-subject">Software Engineer</p>
-              <p class="education-desc">MBA em Open Source</p>
-            </div>
-          </div>
-        </section>
+        
       </section>
       
     </main>
