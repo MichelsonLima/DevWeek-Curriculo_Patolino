@@ -14,33 +14,8 @@ body {
 
 
 @font-face {
-    font-family: "Less";
-    src: url('fonts/Less.otf') format('opentype');
-}
-
-@font-face {
-    font-family: "LessBold";
-    src: url('fonts/Less-Bold.otf') format('opentype');
-}
-
-@font-face {
-    font-family: "Melody";
-    src: url('fonts/Melody-Regular.otf') format('opentype');
-}
-
-@font-face {
-    font-family: "LessLight";
-    src: url('fonts/Less-Light.otf') format('opentype');
-}
-
-@font-face {
     font-family: 'cocogothic';
     src: url('fonts/Coco\ Gothic\ SmallCaps\ Bold.ttf') format('opentype');
-}
-
-@font-face {
-    font-family: 'cococlassicmedium';
-    src: url('fonts/Cocogoose-Classic-Medium-trial.ttf') format('opentype');
 }
 
 @font-face {
