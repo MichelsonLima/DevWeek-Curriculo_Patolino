@@ -1,2 +1,2 @@
-# EBACProjects.github.io
+# EBACProjects
 Projects made during EBAC events
